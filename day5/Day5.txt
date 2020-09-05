@@ -1,0 +1,85 @@
+
+
+	## NodeJS ##
+	
+	# visit NodeJS document on web.
+	
+	-What is NodeJS:
+		-It is open source run time environment.
+		-It is scripting lang.
+		-It is server side programming.
+		-that means it is Back-end programming.
+		-Mainly it is Asynchronous.
+		-Other than NodeJS , PHP,JSP,ASP.NET are server side programing lang.
+		-alternates or compatator for NodeJS are Java[servlet,JSP],C++,PHP,ASP, .NET, RUBY RAIL.
+		-At server side programming we save the data in DataBase.
+		-It reads the request which is comming from client and save it into DB Server.
+		-It is Server side JavaScript.
+		
+	
+	* Installation:
+		-nodeJS.org
+		-install recommended for most users version.
+	
+	* Make separate Folder
+	
+	* Commands:
+		-node -v
+		-npm -v (npm=Node Packet Manager.) (v=Version).
+		
+		-npm init  (initialize project. OR .create a file)
+			--press enter 4-5 times.
+			--it creats package.json
+	
+	* Make the another folder inside the previous main folder
+	
+	* Create the project here.
+	* Give .js extension
+		-avoid special characters and try to avoid space.
+		-if you want to give space and special characters use "."
+	
+	* Create first program as index.js or main.js
+	
+	* Open the terminal.
+		-node src/index.js
+		-node src/1.js
+		-likewise
+		
+	## Note: Read about the class,object and static keyword...
+	
+	## constructor() is special keyword in JavaScript.
+		-eg.
+			class Person{
+					constructor(){
+									console.log("I am constructor");
+								}
+						}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
