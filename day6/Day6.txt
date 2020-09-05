@@ -1,0 +1,48 @@
+// node -v =>12.16.3
+// npm -v  =>6.*.*
+
+	## Day 6 ##
+	
+	* Before creating any project , first go to terminal and type "npm init"
+		-this initialize the project.
+		-it creates the package.json file 
+		-this json file indicates that this is an nodeJS project.
+		-This is more important to identify our project.
+		
+		
+	* Modules :
+		-There are 3 types of modules in NodejS.
+		1) Local Module.
+		2) Internal Module.
+		3) External Module.
+		
+		-Every program is module in nodejs.
+		-Modules are used to achieve madularity.
+		-modules are also known as Package,Library.
+		-Modules are on server side .
+		-Its not available in client sid(i.e. in HTML).
+		-
+		
+		
+	* How Modules Work in NodeJS:
+		-To make the program as module-> go to the end of program and write there "module.exports";
+		-By using this we can use current program in anoher program.
+		-Now to import it another program->
+			require("./modulename")
+		-this ./ indicates that module is Local Module. that means our created module.
+		
+		-require("http") =>this internal module. means inbuild module.
+		
+		-How to exports more than one functionality:
+			-module.exports.variable_name(this could be anything)=variable_name(this should be previously defined in program);
+		
+		
+	# Creating the server :
+		-Here we use internal module.
+			const http=request("http");
+		-http.createServer((req,res)=>{});
+		- .listen(5600);                        //url is created.
+			
+			
+			
+			
