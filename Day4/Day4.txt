@@ -1,0 +1,52 @@
+///https://fakerestapi.azurewebsites.net/api/Authors
+
+	# JQuerry ($) :
+		-Jquerry is javscript library.
+		-Which is used at client side.
+		-JQuerry is enhanced version of DOM.
+		-All the things we do in jquerry it can be also be done in DOM. 
+		-But jquerry provides usefull methods.
+		-it includes only methods.
+			--eg: innerHTML="" replaced by html().
+		-It simplifies the document operations.
+		-It dosent with browser bydefault.
+		-we have to call it explicitly in our project.
+		-basic purpose was to provide consistancy.
+		-that means your program works in each type of browser in same way.
+		-it provides cross-browser. this is main importance of it.
+		-nowadays angular takes over the jquerry.
+		-type jquerry cdn and go to jquerry cdn. use 3.x version.
+		-and copy the minified url in script tag.
+		-this minified version saves the bandwidth of user.
+		-you can check wether jquerry is added in project :go to source, or in consol tab use $.ajax('url').
+		
+		
+		# How to find element by using jquerry:
+			-$();
+			
+			-$("#id1");
+			-above line equivalent to :document.querySelector('#id1');
+			
+			-$("#id1").css('color','green');
+			-it is similar to document.querrySelector('#id1').style.color="red';
+			
+			-$("#id1").hide();   => its hide the block. like display=none.
+			
+			-we can mix up the programs. like we can write DOM and jquerry in same project.
+			
+			- $("parent div:nth-child(1)")  OR
+			  $("parent :nth-child(1)")
+			 => This will access the 1st child of parent ID.
+			 - Like this we can access any child of any element or any id.
+			
+			
+		# Working with AJAX :
+			-$.ajax(url).done((data1) => {
+				consol.log(data1);
+				myDOMoperationHere(data1);
+				});
+			
+			-It gives JSON as a default response.
+			-Here we dont need to parse it aslo. JQuerry internally parse this JSON file and gives us a structured data.
+			-
+			
