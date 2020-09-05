@@ -1,0 +1,40 @@
+**  XML and JSON are structured information.
+
+ *onreadyStateChange :
+ 	- It deals with all the 4 stages.
+ 	- For declaring the specific state we have  to declare it manually.
+
+ *Onload :
+	-this process only when your response is ready.
+	-that means it belongs to only final state.
+	
+ * When the state is completed then the output is send in the string format.
+ *We have to convert it into proper JSON. by using JSON.parse(str) method.
+ 
+ *XML :: <>
+ *JSON :: {}
+ 
+ *** Server se response hamesha text format me hee ata hai.
+ 	-Server can put the default response format.
+ 	-This is on server sid.
+ 	-On client side we make request to server to achieve either XML or JSON.
+ 	-we have to convert it into JSON.
+ 	
+ **Ideal way to communicate with server is by XML or JSON.
+ **And now JSON is preferred nowadays.
+ ----------------------------------------------------------------------
+ 
+ // Call AjaxXML =>
+ 
+ ** xhr.setReuestHeader('accept','application/xml');
+ 	-Here we requesting for XML response.
+ 	-response is always in string format that means text format. But when we want it in XML we don need to parse or convert it . it gives automatically in XML format. Just we have to call console.log(xhr.responseXML);
+ 	-XML is structured data or information.
+ 	-XML gives the tags.
+ 	-application/xml is an extension for XML file.
+ 	-application/json is an extension for JSON file.
+ 	
+ 	
+ 	* Nowadays the JSON is used mostly instead of XML.
+ 	-Because it is easy to handle and it is more readable.
+ 	
