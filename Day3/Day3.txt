@@ -1,0 +1,77 @@
+
+	# HTTP-(Hyper Text Transfer Protocol) **
+	
+	-Http is laguage of web.
+	-HTTP is the common medium for communicate between client and server.
+	-eg. XMLHttpRequest
+	-AJAX also uses Http medium for communicate.
+	-Client And Server talks in Http language.
+	-And it is always in Text format that means Http understands Text only.
+	-JSON is prefered datatype.
+	
+	
+	
+	# Http has set of methods.
+	
+	-GET    (Mostly used or default method)
+		--used to communicate between client and server.(url)
+		-*-By sending minimum information to the server and getting maximum information.
+		
+		Limitations=>
+		
+		--We can not send large information by using GET method.
+		--It has 2083 characters limit.
+		--That means the url should be in between this limit.
+		--As the url is readable :: so there can be security issue.
+		--It will show the username and password in the url itself.
+		--So we should not send the secure information by using get.
+		--We can pass only text information.That means string.
+		--Binary data can not be passed (like : mp3, mp4, img)
+		
+	-POST   
+		--used to communicate between client and server.
+		--It provides security. 
+		--That means it does not pass information in the url().
+		--Information is get passed in the  Http-Body.
+		--Their is no length limitation.
+		--No security issue.
+		--We can pass binary data (like: mp3,mp4,img).
+		
+			
+	-PUT     
+	-DELETE  
+	
+	
+	
+	# Study Of URL() :
+	
+	https://www.google.com                       ::URL without information
+	https://www.google.com/search?q=java&oq=java :: URL with information by client side.
+	
+	https   => Protocol
+	://     => Seperator Between protocol and domain.
+	www     => Sub-Domain (world wide web).
+	google  => Domain
+	com     => Domain extension
+	:80     => Default port 80 web.
+	/search => Path Parameters.
+	
+	--Separators:
+		://		Between protocol and domain
+		. 		Bet domain name and extension.
+		:		Bet domain and port.
+		/		bet path parameter.
+		?		Query Separator(optional)
+		& 		Between tow key.
+		=		key and value.
+		eg. ?key1=value1&key2=value2&key3=value3
+		
+		
+	# Submitting a Form :
+		-username and password
+			--https://www.fackedomain.com/form?username=name=mean&password=12345&email=abcd@gmail.com
+			
+			
+	# Weather API :
+		
+		

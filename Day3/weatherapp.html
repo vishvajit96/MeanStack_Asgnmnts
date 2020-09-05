@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="weatherapp.js"></script>
+
+    <link rel="stylesheet" href="weatherapp.css">
+
+</head>
+
+<body>
+    <div id="bg">
+        <div class="inpblock">
+            <input type="text" placeholder="Enter your City" id="textid" class="inp1" />
+            <button onclick="getWeather()" class="btn">GET WEATHER</button>
+
+            <div id="parent">
+                <!-- We will display results here-->
+                <div style="display: none;">
+                    Results Here
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
